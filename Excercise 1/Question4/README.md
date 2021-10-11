@@ -1,9 +1,9 @@
-###Task:
+### Task:
 Suppose Two Microcontrollers. Save a 200 Character String in one's EEPROM and send it over to the other one,
 
 using a port (all 8 pins). Receive the sent string on the other and print it on an LCD.
 
-###Explanation of the proposed solution:
+### Explanation of the proposed solution:
 Microcontroller *A* saves the 200 character string in its EEPROM and reads from it right after. Then in a 200 step `for` loop, waits
 
 for a signal from a reader (`PORTD7`) stating that they are ready to receive, then sets an 8-bit character on its `PORTC`;
