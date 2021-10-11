@@ -14,3 +14,6 @@ Microcontroller *B* states that it is not ready to read yet by setting its `PORT
 Then in a 200 step `for` loop, sends signals for its readiness followed by storing the read character on `PORTC`. 
 
 And Finally, Displays the read string on a `16x2LCD`.
+
+#### References
+The `lcd.h` was gathered using [this article](https://www.electronicwings.com/avr-atmega/lcd16x2-interfacing-with-atmega16-32).
