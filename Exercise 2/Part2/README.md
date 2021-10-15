@@ -14,7 +14,7 @@ The program counts timer overflows to reach 0.5 second intervals.
 
 Using [this](https://www.easycalculation.com/engineering/electrical/avr-timer-calculator.php) website, I calculated the required prescale and initial value of the timer to acquire the 0.5 second interval.
 
-The clock frequency is $10^6$ Hz, the required frequency is 2 Hz (0.5 second intervals). 
+The clock frequency is 10^6 Hz, the required frequency is 2 Hz (0.5 second intervals). 
 
 By devising the frequency by 8 (prescaler of 8),
 
