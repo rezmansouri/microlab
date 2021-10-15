@@ -5,7 +5,7 @@ Suppose the frequency of a crystal quartz connected to a micorcontroller, is 1 M
 ![circuit](https://github.com/rezmansouri/microlab/blob/main/Exercise%202/Part2/circuit.gif)
 The task prompt asked me to *suppose* the external clock source, whereas I actually used a crystal quartz with prevalent configuation (1MHz frequency *as asked* and two 22pF capacitors). 
 
-It's good to know that if **proteus 8** is used for simulation, the following config must be set for the microcontroller:
+It's good to know that if **proteus 8** is used for simulation, in order to use an external clock source, the following config must be set for the microcontroller:
 ![circuit](https://github.com/rezmansouri/microlab/blob/main/Exercise%202/Part2/microconfig.png)
 
 In order to have *exact* 0.5 intervals in inverting the PORT, interrupts must be used. I used the 8 bit TIMER0 of ATMEGA16. 
