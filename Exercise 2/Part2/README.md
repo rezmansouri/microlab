@@ -1,10 +1,11 @@
 ### Task:
 
-Following Part 1 of the exercise, connect a push button on PIND2 (_originally PINA0_) and 7 more LEDs on PORTC. Write a program to blink these LEDs in 0.5 intervals when a logical change on PIND2 is occured. Use the **external clock frequency** to maintain the intervals.
+Following Part 1 of the exercise, connect a push button on `PIND2` (_originally PINA0_) and 7 more LEDs on `PORTC`. Write a program to blink these LEDs in 0.5 intervals when a logical change on `PIND2` is occured. Use the **external clock frequency** to maintain the intervals.
 
 ### Explanation for the proposed solution:
 
 ![circuit](https://github.com/rezmansouri/microlab/blob/main/Exercise%202/Part2/circuit.gif)
+
 The program for [Part1](https://github.com/rezmansouri/microlab/blob/main/Exercise%202/Part1/main.cpp) is expanded to support external interrupt requests on `INT0` along with the circuit of 8 LEDs.
 
 We need an indicator for knowing whether the LEDs should blink or not.
