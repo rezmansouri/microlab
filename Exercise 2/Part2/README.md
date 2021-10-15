@@ -4,7 +4,9 @@ Following Part 1 of the exercise, connect a push button on `PIND2` (_originally 
 
 ### Explanation for the proposed solution:
 
-![circuit](https://github.com/rezmansouri/microlab/blob/main/Exercise%202/Part2/circuit.gif)
+<p align="center">
+  <img src="https://github.com/rezmansouri/microlab/blob/main/Exercise%202/Part2/circuit.gif"/>
+</p>
 
 The program for [Part1](https://github.com/rezmansouri/microlab/blob/main/Exercise%202/Part1/main.cpp) is expanded to support external interrupt requests on `INT0` along with the circuit of 8 LEDs.
 
@@ -21,7 +23,7 @@ ISR(INT0_vect)
 }
 ```
 
-`blink_active` is set as `true` initially, because when the micocontroller starts, a logical change will be occured on `PIND2`, flipping it to `false` and disabling all the LEDs, as desired.
+`blink_active` is set as `true` initially, because when the microcontroller starts, a logical change will be occured on `PIND2`, flipping it to `false` and disabling all the LEDs, as desired.
 
 In order to use `INT0` requests properly, the following registers must be configured in the `main()` function initially.
 
@@ -33,4 +35,5 @@ MCUCR = 1 << ISC00; // ISC00 = 1 & ISC01 = 0 for any logical change on INT0 to r
 #### References
 
 The official [ATMEGA16 datasheet](http://ww1.microchip.com/downloads/en/devicedoc/doc2466.pdf).
-This [article](https://www.electronicwings.com/avr-atmega/atmega1632-external-hardware-interrupts) explaining how to config INT0 interrupts.
+
+This [article](https://www.electronicwings.com/avr-atmega/atmega1632-external-hardware-interrupts) explaining how to config `INT0` interrupts.
