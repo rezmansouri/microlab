@@ -13,7 +13,7 @@ In order to have *exactly* 0.5 second intervals in inverting the PORT, interrupt
 
 The program counts timer overflows to reach 0.5 second intervals.
 
-Using [this](https://www.easycalculation.com/engineering/electrical/avr-timer-calculator.php) website, I calculated the required prescale and initial value of the timer to acquire the 0.5 second interval.
+Using <a href="https://www.easycalculation.com/engineering/electrical/avr-timer-calculator.php" target="_blank">this</a> website, I calculated the required prescale and initial value of the timer to acquire the 0.5 second interval.
 
 The clock frequency is 10^6 Hz, the required frequency is 2 Hz (0.5 second intervals). 
 
@@ -42,4 +42,4 @@ ISR(TIMER0_OVF_vect) // interrupt routine for timer 0 overflow
 #### References
 The official [ATMEGA16 datasheet](http://ww1.microchip.com/downloads/en/devicedoc/doc2466.pdf).
 
-This [article](http://mcuhq.com/21/how-to-create-a-blinking-led-project-using-atmega16-microcontroller-in-proteus-step-by-step-with-pictures) explaining how to use an external clock source in proteus.
+This <a href="http://mcuhq.com/21/how-to-create-a-blinking-led-project-using-atmega16-microcontroller-in-proteus-step-by-step-with-pictures" target="_blank">article</a>
