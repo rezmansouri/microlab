@@ -8,7 +8,7 @@ The task prompt asked me to *suppose* the external clock source, whereas I actua
 It's good to know that if **proteus 8** is used for simulation, in order to use an external clock source, the following config must be set for the microcontroller:
 ![circuit](https://github.com/rezmansouri/microlab/blob/main/Exercise%202/Part2/microconfig.png)
 
-In order to have *exact* 0.5 intervals in inverting the PORT, interrupts must be used. I used the 8 bit TIMER0 of ATMEGA16. 
+In order to have *exactly* 0.5 second intervals in inverting the PORT, interrupts must be used. I used the 8 bit TIMER0 of ATMEGA16. 
 
 The program counts timer overflows to reach 0.5 second intervals.
 
