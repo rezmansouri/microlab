@@ -40,4 +40,5 @@ ISR(TIMER0_OVF_vect) // interrupt routine for timer 0 overflow
 
 #### References
 The official [ATMEGA16 datasheet](http://ww1.microchip.com/downloads/en/devicedoc/doc2466.pdf).
+
 This [article](http://mcuhq.com/21/how-to-create-a-blinking-led-project-using-atmega16-microcontroller-in-proteus-step-by-step-with-pictures) explaining how to use an external clock source in proteus.
