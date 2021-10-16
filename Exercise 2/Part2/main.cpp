@@ -36,8 +36,8 @@ int main(void)
 
     TIMSK = (1 << TOIE0); // unmasking timer 0 overflow interrupt
 
-    DDRC = 0xff; // setting the data direction of PORTC0 as output
-    DDRD = 0x00; // setting the data direction of PORTC0 as input
+    DDRC = 0xff; // setting the data direction of PORTC as output
+    DDRD = 0x00; // setting the data direction of PORTD as input
 
     GICR = 1 << INT0; // Enable External INT0
     MCUCR = 1 << ISC00; // ISC00 = 1 & ISC01 = 0 for any logical change on INT0 to request an interrupt
