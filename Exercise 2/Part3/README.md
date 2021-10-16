@@ -16,7 +16,7 @@ Moreover, we also need a variable to store the direction of the LEDs blinking.
 
 `static bool reverse = false;`
 
-And finally, the thrust of this part of the exercise, is the function below. This function is called everytime the `TIMER0` indicates 0.5 intervals (*AND INT0 is triggered formerly*). It increments/decrements the `LED_turn` based on the direction of the blinking `reverse`. Once the LED_turn had reached the `-1` value, we know that the show is finished, thus all the variables participating this procedure are reset and the wait for another `INT0` external interrupt begins.
+And finally, the thrust of this part of the exercise, is the function below. This function is called everytime the `TIMER0` indicates 0.5 intervals (*AND INT0 is triggered formerly*). It increments/decrements the `LED_turn` based on the direction of the blinking `reverse`. Once the LED_turn had reached the `-1` value, we know that the show is finished, thus all the variables participating in this procedure are reset and the wait for another `INT0` external interrupt begins.
 
 ```
 void blink(void)
