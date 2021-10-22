@@ -9,7 +9,7 @@ Following the [First](https://github.com/rezmansouri/microlab/tree/main/Exercise
 </p>
 
 _The tricky part of this question, is the limitation of the displays being on the same port;_ 
-Hence, Using `PORTC[0..3]` pins, we have to indicate which display to turn on at each moment.
+Hence, Using `PORTD[0..3]` pins, we have to indicate which display to turn on at each moment.
 
 Just like the first part, we have the digits array, along with the following variables:
 
