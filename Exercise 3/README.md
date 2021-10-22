@@ -151,6 +151,6 @@ void increment(void)
 
 #### References
 
-The official [Common 7 Segment Datasheet](http://ww1.microchip.com/downloads/en/devicedoc/doc2466.pdf) By WayJun Technology.
+The official [Common 7 Segment Datasheet](https://e-radionica.com/productdata/LD3361BS.pdf) By WayJun Technology.
 
 This [article](https://exploreembedded.com/wiki/AVR_Timer_Interrupts) explaining how to config Timer/Counter 1 registers.
