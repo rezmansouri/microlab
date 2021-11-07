@@ -5,7 +5,7 @@ Following [Part 1](https://github.com/rezmansouri/microlab/blob/main/Exercise%20
 ### Explanation for the proposed solution:
 
 <p align="center">
-  <img src="https://github.com/rezmansouri/microlab/blob/main/Exercise%205/Part1/circuit.gif"/>
+  <img src="https://github.com/rezmansouri/microlab/blob/main/Exercise%205/Part2/circuit.gif"/>
 </p>
 
 To know whether to increment the steps or decrement them, the `static int incrementor = 1;` is required;
