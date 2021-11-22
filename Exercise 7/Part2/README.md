@@ -13,4 +13,5 @@ _note that the original task was to develop a program that users could be regist
 #### References
 
 The `keypad.h` library was gathered from [here](https://microlearn.ir/1185/p_keypad.html) and modified, (it was _buggy!_).
+
 The `lcd.h` library was gathered using [this article](https://www.electronicwings.com/avr-atmega/lcd16x2-interfacing-with-atmega16-32).
