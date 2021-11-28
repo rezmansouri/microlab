@@ -1,6 +1,6 @@
 ### Task:
 
-Interface a bipolar stepper motor and using microcontroller's UART feature, send the number of steps through the simulator's virutal terminal, making the stepper motor to move.
+Interface a bipolar stepper motor and using microcontroller's UART feature, send the number of steps through the simulator's virutal terminal, making the stepper motor move.
 
 ### Proposed solution:
 
@@ -17,27 +17,27 @@ After doing the initial configurations,
 _Data Directions and initializing the uart with the prevalent 9600 baud rate_,
 
 ```
-    DDRD = 0x00;
-    DDRA = 0x0F;
-    UART_init(9600);
+DDRD = 0x00;
+DDRA = 0x0F;
+UART_init(9600);
 ```
 
 The main loop would be as follows:
 
 ```
-    char c;
-    while (1)
-    {
-        c = UART_RxChar();
-        if (c == 13)
-        {
-            move_motor(atoi(terminal_input));
-        }
-        else
-        {
-            terminal_input[terminal_input_index++] = c;
-        }
-    }
+char c;
+while (1)
+{
+  c = UART_RxChar();
+  if (c == 13)
+  {
+    move_motor(atoi(terminal_input));
+  }
+  else
+  {
+    terminal_input[terminal_input_index++] = c;
+  }
+}
 ```
 
 The `atoi()` function, converts the terminal input string to an integer.
