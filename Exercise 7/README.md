@@ -69,6 +69,36 @@ while (1)
 
 The `atoi()` function, converts the terminal input string to an integer.
 
+## Part 4:
+### Task:
+
+Following [Part 3](https://github.com/rezmansouri/microlab/blob/main/Exercise%207/Part3), modify your circuit and program, such that it works jointly with the circuit and the program from [Part 2](https://github.com/rezmansouri/microlab/blob/main/Exercise%207/Part2); Only this time, after logging in, the number of steps for the stepper motor, is received from another microcontroller.
+
+### Proposed solution:
+
+<p align="center">
+  <img src="https://github.com/rezmansouri/microlab/blob/main/Exercise%207/Part4/circuit.gif"/>
+</p>
+
+Suppose we have a server room (_the inside_) which has the stepper motor. The outside of the server room, controls the stepper motor inside, after logging in.
+
+_I hope I find enough time later to explain how I implemented this_
+
+## Part 5:
+### Task:
+
+Following [Part 4](https://github.com/rezmansouri/microlab/blob/main/Exercise%207/Part4), modify your circuit and program, such that it works jointly with the circuit and the program from [Part 4](https://github.com/rezmansouri/microlab/blob/main/Exercise%207/Part4); Only this time, an LM35 temprature sensor is connected to the inside part, and the inside microcontroller sends the temprature read to outside using its usart feature.
+
+### Proposed solution:
+
+<p align="center">
+  <img src="https://github.com/rezmansouri/microlab/blob/main/Exercise%207/Part5/circuit.gif"/>
+</p>
+
+Now the server room is complete! it has a temprature sensor as well.
+
+_I hope I find enough time later to explain how I implemented this_
+
 #### References
 
 The `keypad.h` library was gathered from [here](https://microlearn.ir/1185/p_keypad.html) and modified, (it was _buggy!_).
