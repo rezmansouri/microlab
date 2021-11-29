@@ -10,6 +10,8 @@ Following [Part 4](https://github.com/rezmansouri/microlab/blob/main/Exercise%20
 
 Now the server room is complete! it has a temprature sensor as well.
 
+**The number of steps are sent after the * key is pressed**
+
 _I hope I find enough time later to explain how I implemented this_
 
 #### References

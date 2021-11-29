@@ -82,6 +82,8 @@ Following [Part 3](https://github.com/rezmansouri/microlab/blob/main/Exercise%20
 
 Suppose we have a server room (_the inside_) which has the stepper motor. The outside of the server room, controls the stepper motor inside, after logging in.
 
+**The number of steps are sent after the * key is pressed**
+
 _I hope I find enough time later to explain how I implemented this_
 
 ## Part 5:
@@ -96,6 +98,8 @@ Following [Part 4](https://github.com/rezmansouri/microlab/blob/main/Exercise%20
 </p>
 
 Now the server room is complete! it has a temprature sensor as well.
+
+**The number of steps are sent after the * key is pressed**
 
 _I hope I find enough time later to explain how I implemented this_
 
